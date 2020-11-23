@@ -6,6 +6,7 @@ https://github.com/sophiehuiberts/katex-with-slack
 https://chrome.google.com/webstore/detail/latex-in-slack/pfcfelfnpbnboelkjedecjipaibpnfja?hl=en
 
 For all the bad reasons, code here was obtained from the chrome store directly rather than from the github repo, using the _chrome extension source viewer_.
+
 https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin/related
 
 Then, code was modified so that we can use $...$ and $$...$$ the way it was inteded in latex.
@@ -16,6 +17,7 @@ Surely, there is a clean way to do this...
 
 
 # Following the steps from stack overflow:
+
 https://stackoverflow.com/questions/16680682/how-to-modify-an-extension-from-the-chrome-web-store#:~:text=Go%20to%20the%20page%20in,wanted%20to%20change%20edit%20config.
 
 ## Getting the source and modifying it
