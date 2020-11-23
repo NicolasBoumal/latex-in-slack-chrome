@@ -17,7 +17,7 @@ Then, code was modified so that we can use $...$ and $$...$$ in the usual LaTeX 
 
 See steps below for installation.
 
-Surely, there is a clean way to do this...
+Surely, there is a clean way to do this... It would make a lot more sense to start from the original github repo, make the small change to auto-render.js there, then repackage the result and make it available on the chrome store. An even better way would be to make a pull request to the original repo to add an option to easily switch between the two types of math delimiters. Ideally, this should also be done for the firefox extension.
 
 
 # Following the steps from stack overflow
