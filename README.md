@@ -3,6 +3,7 @@
 This is a tiny modification of the extension latex-in-slack is by Sophie Huiberts and Bento Natura (2019), available here:
 
 https://github.com/sophiehuiberts/katex-with-slack
+
 https://chrome.google.com/webstore/detail/latex-in-slack/pfcfelfnpbnboelkjedecjipaibpnfja?hl=en
 
 For all the bad reasons, code here was obtained from the chrome store directly rather than from the github repo, using the _chrome extension source viewer_.
