@@ -1,6 +1,7 @@
 # Latex-in-Slack modified for single dollars
 
-The extension latex-in-slack is by Sophie Huiberts and Bento Natura (2019), available here:
+This is a tiny modification of the extension latex-in-slack is by Sophie Huiberts and Bento Natura (2019), available here:
+
 https://github.com/sophiehuiberts/katex-with-slack
 https://chrome.google.com/webstore/detail/latex-in-slack/pfcfelfnpbnboelkjedecjipaibpnfja?hl=en
 
