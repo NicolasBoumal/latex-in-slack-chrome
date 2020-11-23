@@ -314,19 +314,22 @@ var renderMathInElement = function renderMathInElement(elem, options) {
 
   optionsCopy.delimiters = optionsCopy.delimiters || [
   {
-    left: "$$$",
-    right: "$$$",
-    display: true 
-  }, {
+//    left: "$$$",
+//    right: "$$$",
+//    display: true 
+//  }, {
     left: "$$",
     right: "$$",
-    display: false 
+    display: true 
   }, {
     left: "\\(",
     right: "\\)",
     display: false
-  }, // LaTeX uses $…$, but it ruins the display of normal `$` in text:
-  // {left: "$", right: "$", display: false},
+  }, {
+	left: "$",
+	right: "$",
+	display: false
+  },
   //  \[…\] must come last in this array. Otherwise, renderMathInElement
   //  will search for \[ before it searches for $$ or  \(
   // That makes it susceptible to finding a \\[0.3em] row delimiter and
