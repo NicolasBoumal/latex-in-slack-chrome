@@ -10,7 +10,7 @@ For all the bad reasons, code here was obtained from the chrome store directly r
 
 https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin/related
 
-Then, code was modified so that we can use $...$ and $$...$$ the way it was inteded in latex.
+Then, code was modified so that we can use $...$ and $$...$$ the way it was intended in latex.
 
 See steps below for installation.
 
