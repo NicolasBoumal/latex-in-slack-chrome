@@ -17,7 +17,9 @@ See steps below for installation.
 Surely, there is a clean way to do this...
 
 
-# Following the steps from stack overflow:
+# Following the steps from stack overflow
+
+Below is a copy-paste of instructions found on Stack Overflow to modify an existing Chrome extension. This is a terrible way of doing things, but it was quick.
 
 https://stackoverflow.com/questions/16680682/how-to-modify-an-extension-from-the-chrome-web-store#:~:text=Go%20to%20the%20page%20in,wanted%20to%20change%20edit%20config.
 
