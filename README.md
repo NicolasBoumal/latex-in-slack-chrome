@@ -28,7 +28,7 @@ https://stackoverflow.com/questions/16680682/how-to-modify-an-extension-from-the
 1. Go to the page in the Chrome Web Store of the extension you want to modify.
 1. Click on the yellow CRX button, and choose Download (screenshot).
 1. Extract the zip file.
-1. Read the source code, and change what needs to be changed (in your particular case, I had quickly identified that you wanted to change edit config.js and change the "channel" property). Save the changes.
+1. Read the source code, and change what needs to be changed.
 
 ## Using the modified version of the extension.
 1. Visit the Chrome extension page (chrome://extensions/).
