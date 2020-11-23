@@ -359,30 +359,13 @@ var renderMathInElement = function renderMathInElement(elem, options) {
   } // default options
 
 
+  // Modified based on https://katex.org/docs/autorender.html, Nov 22, 2020
   optionsCopy.delimiters = optionsCopy.delimiters || [
-  {
-    left: "$$$",
-    right: "$$$",
-    display: true 
-  }, {
-    left: "$$",
-    right: "$$",
-    display: false 
-  }, {
-    left: "\\(",
-    right: "\\)",
-    display: false
-  }, // LaTeX uses $…$, but it ruins the display of normal `$` in text:
-  // {left: "$", right: "$", display: false},
-  //  \[…\] must come last in this array. Otherwise, renderMathInElement
-  //  will search for \[ before it searches for $$ or  \(
-  // That makes it susceptible to finding a \\[0.3em] row delimiter and
-  // treating it as if it were the start of a KaTeX math zone.
-  {
-    left: "\\[",
-    right: "\\]",
-    display: true
-  }];
+    {left: "$$", right: "$$", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false},
+    {left: "\\[", right: "\\]", display: true}
+  ];
   optionsCopy.ignoredTags = optionsCopy.ignoredTags || ["script", "noscript", "style", "textarea", "pre", "code"];
   optionsCopy.ignoredClasses = optionsCopy.ignoredClasses || [];
   optionsCopy.errorCallback = optionsCopy.errorCallback || console.error; // Enable sharing of global macros defined via `\gdef` between different

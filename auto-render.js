@@ -313,7 +313,7 @@ var renderMathInElement = function renderMathInElement(elem, options) {
 
 
   // Modified based on https://katex.org/docs/autorender.html, Nov 22, 2020
-  optionsCopy.delimiters = [
+  optionsCopy.delimiters = optionsCopy.delimiters || [
     {left: "$$", right: "$$", display: true},
     {left: "$", right: "$", display: false},
     {left: "\\(", right: "\\)", display: false},
