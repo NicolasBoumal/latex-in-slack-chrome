@@ -1,13 +1,18 @@
-# latex-in-slack-chrome
-Modified version of latex-in-slack chrome extension
+# Latex-in-Slack modified for single dollars
 
-https://chrome.google.com/webstore/detail/latex-in-slack/pfcfelfnpbnboelkjedecjipaibpnfja?hl=en#:~:text=LaTeX%20in%20Slack&text=Render%20LaTeX%20in%20Slack%20chat,the%20latest%20version%20of%20Slack.
+The extension latex-in-slack is by Sophie Huiberts and Bento Natura (2019), available here:
+https://github.com/sophiehuiberts/katex-with-slack
+https://chrome.google.com/webstore/detail/latex-in-slack/pfcfelfnpbnboelkjedecjipaibpnfja?hl=en
 
-https://github.com/KaTeX/KaTeX/blob/master/contrib/auto-render/auto-render.js
-
-https://katex.org/docs/autorender.html
-
+For all the bad reasons, code here was obtained from the chrome store directly rather than from the github repo, using the _chrome extension source viewer_.
 https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin/related
+
+Then, code was modified so that we can use $...$ and $$...$$ the way it was inteded in latex.
+
+See steps below for installation.
+
+Surely, there is a clean way to do this...
+
 
 # Following the steps from stack overflow:
 https://stackoverflow.com/questions/16680682/how-to-modify-an-extension-from-the-chrome-web-store#:~:text=Go%20to%20the%20page%20in,wanted%20to%20change%20edit%20config.
