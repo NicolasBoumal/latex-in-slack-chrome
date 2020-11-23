@@ -1,16 +1,19 @@
 # Latex-in-Slack modified for single dollars
 
-This is a tiny modification of the extension latex-in-slack is by Sophie Huiberts and Bento Natura (2019), available here:
+This is a tiny modification of the extension latex-in-slack by Sophie Huiberts and Bento Natura (2019), available here:
 
 https://github.com/sophiehuiberts/katex-with-slack
 
 https://chrome.google.com/webstore/detail/latex-in-slack/pfcfelfnpbnboelkjedecjipaibpnfja?hl=en
 
+The original authors do not endorse this modification. The modification is available under the same license as the original code.
+
+
 For all the bad reasons, code here was obtained from the chrome store directly rather than from the github repo, using the _chrome extension source viewer_.
 
 https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin/related
 
-Then, code was modified so that we can use $...$ and $$...$$ the way it was intended in latex.
+Then, code was modified so that we can use $...$ and $$...$$ in the usual LaTeX way.
 
 See steps below for installation.
 
