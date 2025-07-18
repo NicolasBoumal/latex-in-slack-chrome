@@ -1,17 +1,24 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
-   "content_scripts": [ {
-      "all_frames": true,
-      "js": [ "content.js" ],
-      "matches": [ "*://*.slack.com/*" ]
-   } ],
-   "description": "Render LaTeX in Slack chat.",
-   "manifest_version": 2,
-   "name": "LaTeX in Slack",
-   "short_name": "latex-slack",
-   "version": "0.4.3",
-   "icons": { "32": "icon32.png",
-              "48": "icon48.png",
-             "128": "icon128.png" }
+  "manifest_version": 3,
+  "name": "LaTeX in Slack (modified)",
+  "short_name": "latex-slack-mod",
+  "version": "0.4.3",
+  "description": "Render LaTeX in Slack chat (with single and double dollar signs).",
+  "icons": {
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.slack.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
 }
